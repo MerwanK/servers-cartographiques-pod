@@ -1,6 +1,6 @@
 # Objectif
 - Accord sur end point API exposé aux autres machins dans le système. En ce moment, notre API est ci-dessous:
-![default API](http://imgur.com/a/DuHKV)
+![default API](http://i.imgur.com/GvWsoi4.png)
 - Serveur REST (+ dashboard) pour enregistrer les noeuds de Merwan
 
 # Architecture

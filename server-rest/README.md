@@ -9,12 +9,14 @@
 
 # Setup
 - installer nodejs
-- cloner ce repo
+- cloner ce repo, ou `git pull` pour mettre à jour le repo local existant
+- `git checkout bear` pour changer de branche vers la branche "bear"
 - aller dans le répertoire server-rest
 - `npm install`
 
 # Lancement
-- `npm start`
+- base de données chez mlab toujours disponible
+- `npm start` lance le serveur nodejs
 
 # References
 - https://scotch.io/tutorials/build-a-restful-api-using-node-and-express-4

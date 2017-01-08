@@ -4,6 +4,8 @@ var express = require('express');
 var app = express(); // Our app
 var bodyParser = require('body-parser');
 
+app.use(express.static(__dirname + '/public')); 	// set the static files location /public/img will be /img for users
+
 // configure app to use bodyParser()
 // let us get the data from a POST
 app.use(bodyParser.urlencoded({extended: true}));
